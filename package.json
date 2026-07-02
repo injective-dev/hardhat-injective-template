@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-injective-template",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lean Hardhat starter for building and deploying EVM smart contracts on Injective Testnet.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run script/deploy.js --network inj_testnet",
+    "verify": "hardhat verify --network inj_testnet",
+    "interact": "hardhat console --network inj_testnet"
+  },
+  "keywords": [
+    "hardhat",
+    "injective",
+    "evm",
+    "starter-template",
+    "smart-contracts"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.2",
+    "dotenv": "17.4.2",
+    "hardhat": "2.28.6"
+  }
+}
